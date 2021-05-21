@@ -8,7 +8,7 @@ class Polygon  {
         this.width = width
         this.height = height
         this.body = Bodies.rectangle(x,y,width,height,options)
-        this.image = loadImage("images/polygon.png")
+        this.image = loadImage("polygon.png")
 
         World.add(world,this.body)
 
