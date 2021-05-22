@@ -1,7 +1,8 @@
 class Block{
     constructor(x, y, width, height) {
         var options = {
-                     
+             'density': 1
+             'friction': 0.5
         }
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
